@@ -13,3 +13,4 @@ A free and open-source [Jekyll](http://jekyllrb.com) theme. Great for blogs and 
 
 ## License
 The MIT License (MIT)
+# mikemedis.github.com
