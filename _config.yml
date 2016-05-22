@@ -5,36 +5,36 @@ url: "http://www.domain.com" # the base hostname & protocol for your site
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Tyrion Lannister # Your name will go here
-  description: "A personal portfolio and blog website" # used by search engines
+  title: Michael Medis # Your name will go here
+  description: "Michael Medis | Web Developer" # used by search engines
 
   # Header and footer text
   header_text: >
-     <h1>Witty & Hilarious Rails Developer</h1>
+     <h1>Michael is a Passionate Rails & Javascript Developer</h1>
      <p>I'm a kickass developer specializing in Rails, AngularJS, and MongoDB.</p>
-  header_text_feature_image: 
+  header_text_feature_image:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: "medis.michael@gmail.com" # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
-  dribbble: 
-  facebook: 
+  dribbble: "https://dribbble.com/therealmedis"
+  facebook: "https://www.facebook.com/michael.medis"
   flickr:
-  github: # github profile name, e.g. "madebymunsters"
+  github: "mikeMedis" # github profile name, e.g. "madebymunsters"
   google_plus:
-  instagram: 
-  linkedin:  # Full URL
+  instagram:
+  linkedin: "https://www.linkedin.com/in/michael-medis-32b467111?authType=NAME_SEARCH&authToken=JnI0&locale=en_US&srchid=4699317951463957159077&srchindex=1&srchtotal=26&trk=vsrp_people_res_photo&trkInfo=VSRPsearchId%3A4699317951463957159077%2CVSRPtargetId%3A469931795%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH" # Full URL
   pinterest:
   reddit:
   soundcloud:
-  stack_exchange:  # Full URL
+  stack_exchange:  "http://stackexchange.com/users/8493338/michael-medis" # Full URL
   steam:
   tumblr:
-  twitter: 
+  twitter:
   wordpress:
   youtube:
 
