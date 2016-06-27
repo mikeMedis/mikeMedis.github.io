@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/blog/" # the subpath of your site, e.g. /blog/
+baseurl: "/blog" # the subpath of your site, e.g. /blog/
 url: "http://mikemedis.github.io" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
@@ -39,7 +39,7 @@ theme:
   youtube:
 
   # Scripts
-  google_analytics:"UA-79655907-1"
+  google_analytics: "UA-79655907-1"
   disqus_shortname:
   katex: true # Enable if using math markup
 
