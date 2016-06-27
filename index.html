@@ -6,7 +6,7 @@ layout: default
 
   <div class="work">
     <h2>My Work</h2>
-    {% for project in site.portfolio limit:3 %}
+    {% for project in site.portfolio limit:5 %}
     <div class="project">
       <div class="project-thumb">
         <a href="{{ project.url | prepend: site.baseurl }}">
@@ -22,7 +22,7 @@ layout: default
   </div>
 
   <div class="posts">
-    <h2 class="post-header">My Posts</h2>
+    <h2 class="post-header">My Blog Posts</h2>
     <ul>
       {% for post in paginator.posts %}
       <li class="post-teaser">
@@ -64,3 +64,13 @@ layout: default
   </div>
   {% endif %}
 </div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-79655907-1', 'auto');
+  ga('send', 'pageview');
+
+</script>

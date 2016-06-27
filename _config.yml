@@ -1,17 +1,17 @@
 # SITE CONFIGURATION
-baseurl: "/portfolio-kami" # the subpath of your site, e.g. /blog/
-url: "http://www.domain.com" # the base hostname & protocol for your site
+baseurl: "/blog/" # the subpath of your site, e.g. /blog/
+url: "http://mikemedis.github.io" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
   title: Michael Medis # Your name will go here
-  description: "Michael Medis | Web Developer" # used by search engines
+  description: "Michael Medis | Developer, Programmer, Hacker and Student of Mastery in all of it's Disiplines." # used by search engines
 
   # Header and footer text
   header_text: >
-     <h1>Michael is a Passionate Rails & Javascript Developer</h1>
-     <p>I'm a kickass developer specializing in Rails, AngularJS, and MongoDB.</p>
+     <h1>Passionate and Dedicated to the Development of World class Applications</h1>
+     <p>Soaking up every bit of knowledge and experience while specializing in Rails, React and AngularJS</p>
   header_text_feature_image:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
@@ -27,7 +27,7 @@ theme:
   github: "mikeMedis" # github profile name, e.g. "madebymunsters"
   google_plus:
   instagram:
-  linkedin: "https://www.linkedin.com/in/michael-medis-32b467111?authType=NAME_SEARCH&authToken=JnI0&locale=en_US&srchid=4699317951463957159077&srchindex=1&srchtotal=26&trk=vsrp_people_res_photo&trkInfo=VSRPsearchId%3A4699317951463957159077%2CVSRPtargetId%3A469931795%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH" # Full URL
+  linkedin: "https://www.linkedin.com/in/michael-medis"
   pinterest:
   reddit:
   soundcloud:
@@ -39,7 +39,7 @@ theme:
   youtube:
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  google_analytics:"UA-79655907-1"
   disqus_shortname:
   katex: true # Enable if using math markup
 
@@ -68,7 +68,7 @@ collections:
 # BUILD SETTINGS
 markdown: kramdown
 
-highlighter: pygments
+highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
