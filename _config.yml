@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: "/blog" # the subpath of your site, e.g. /blog/
-url: "http://mikemedis.tech" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.mikemedis.tech" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
@@ -18,25 +18,10 @@ theme:
 
   # Icons
   rss: false
-  email_address: "medis.michael@gmail.com" # Full email address, e.g. "sam@example.com"
-  behance:
-  bitbucket:
-  dribbble: "https://dribbble.com/therealmedis"
+  email_address: "mike@mikemedis.tech" # Full email address, e.g. "sam@example.com"
   facebook: "https://www.facebook.com/michael.medis"
-  flickr:
-  github: "mikeMedis" # github profile name, e.g. "madebymunsters"
-  google_plus:
-  instagram:
-  linkedin: "https://www.linkedin.com/in/michael-medis"
-  pinterest:
-  reddit:
-  soundcloud:
-  stack_exchange:  "http://stackexchange.com/users/8493338/michael-medis" # Full URL
-  steam:
-  tumblr:
-  twitter:
-  wordpress:
-  youtube:
+  github_username: "mikeMedis" # github profile name, e.g. "madebymunsters"
+  linkedin_username: "michaelmedis"
 
   # Scripts
   google_analytics: "UA-79655907-1"
