@@ -19,7 +19,7 @@ theme:
   # Icons
   rss: false
   email_address: "mike@mikemedis.tech" # Full email address, e.g. "sam@example.com"
-  facebook: "https://www.facebook.com/michael.medis"
+  facebook_username: "https://www.facebook.com/michael.medis"
   github_username: "mikeMedis" # github profile name, e.g. "madebymunsters"
   linkedin_username: "michaelmedis"
 
