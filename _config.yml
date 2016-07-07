@@ -19,9 +19,9 @@ theme:
   # Icons
   rss: false
   email_address: "mike@mikemedis.tech" # Full email address, e.g. "sam@example.com"
-  facebook: "https://www.facebook.com/michael.medis"
+  twitter: "mike_medis"
   github: "mikeMedis" # github profile name, e.g. "madebymunsters"
-  linkedin: "www.linkedin.com/in/michael-medis-32256"
+  linkedin: "https://www.linkedin.com/in/michael-medis-software"
 
   # Scripts
   google_analytics: "UA-79655907-1"
