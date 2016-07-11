@@ -12,7 +12,7 @@ AWS Lambda and NodeJS[See code on Github](https://github.com/mikeMedis/){:target
 
 ## Explanation
 
-I designed and developed a two Alexa Skills that are published on the Alexa Skill store.
+I designed and developed two Alexa Skills that are published on the Alexa Skill store.
 
 ## Problem
 
