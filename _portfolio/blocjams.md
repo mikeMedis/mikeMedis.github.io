@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Training Project Javascript/JQuery/Angular - BlocJams
+title: BlocJams Project Javascript/JQuery/Angular
 thumbnail-path: "img/blocjams.png"
 short-description: Music player. Javascript and AngularJS Development.
 
@@ -9,18 +9,18 @@ short-description: Music player. Javascript and AngularJS Development.
 {:.center}
 ![]({{ site.baseurl }}/img/blocjams.png)
 
-Javascript, jQuery, and AngularJS, with Buzz HTML5 Sound Library.
 
 {:.center}
-[See code on Github](https://github.com/saraguittarclark/bloc-jams-angular){:target="_blank"}
+Javascript, jQuery, and AngularJS, with Buzz HTML5 Sound Library.
+[See code on Github](https://github.com/mikeMedis/bloc-jams-angular){:target="_blank"}
 
 ## Explanation
 
-BlocJams is a fully functional music player, built first with vanilla Javascript, then refactored with jQuery and AngularJS. Songs can be skipped, replayed, muted and unmuted. HTML5 Buzz library was used to support music playback (along with a variety of other functions).
+BlocJams is a fully functional music player, built first with vanilla Javascript, then refactored with jQuery and AngularJS. Songs can be skipped, replayed, muted and unmuted("turned up to 11!"). HTML5 Buzz library was used to support music playback (along with a variety of other functions).
 
 ## Problem
 
-BlocJams is a browser-only clone of Spotify/Amazon Music. The SPA has three states - a landing state for new visitors, a collection state that shows available album(s) to select, and an album state in which users could play an album. A player bar, available at the bottom of the album state, would let users change the volume, skip or replay songs, adjust volume, and see information about the song that is playing.
+BlocJams is a browser-only clone of Spotify/Amazon Music. The SPA(Single Page Application) has three states - a landing state for new visitors, a collection state that shows available album(s) to select, and an album state in which users could play an album. A player bar, available at the bottom of the album state, would let users change the volume, skip or replay songs, adjust volume, and see information about the song that is playing.
 
 ## Solution
 

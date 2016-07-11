@@ -1,13 +1,14 @@
 ---
 layout: post
 title: BlocMarks
-thumbnail-path: "img/blocmarks.jpg"
+thumbnail-path: "img/blocmarks.png"
 short-description: BlocMarks is a social bookmarking application for finding and sharing your favorite URLs with your friends online.
 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/blocmarks.jpg)
+![]({{ site.baseurl }}/img/blocmarks.png)
+BlocMarks is a social bookmarking application for finding and sharing your favorite URLs with your friends online.  [See code on Github](https://github.com/mikeMedis/blocmarks){:target="_blank"}
 
 ## Explanation
 
@@ -15,11 +16,11 @@ With a native browser sharing your favorite bookmarks with friend and family isn
 
 ## Problem
 
-Bookmarks are all private to each users own computer and for time to time get very cluttered and disorganized.
+It is easy enough to bookmark a URL in your browser, but eventually your bookmark library may get cluttered and it may require effort to manage bookmarks. It would be nice to have the ability to share bookmarks with friends. That is not something you can do easily from your native browser.
 
 ## Solution
 
-To make a application that users can have their own bookmarks organized by topic as well as have them shared to other users adding the ability to like and dislike as well.
+The BlocMarks application will solve this problem so that users can have their own bookmarks organized by topic as well as have them shared to other users adding the ability to like and dislike as well.
 
 ## Results
 
@@ -27,4 +28,8 @@ Achieving the desired results, I first used Devise a ruby gem to have a user sig
 
 ## Conclusion
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+Passing all parameters of the user stories given for the application. The problem was solved and now a Bookmark sharing application is in place.
+{:.center}
+
+{:.center}
+[See the website @ Heroku](https://git.heroku.com/serene-retreat-9412.git)

@@ -2,7 +2,11 @@
 layout: page
 title: Contact
 permalink: /contact/
+feature-img: "img/beawesomecode.jpg"
 ---
+
+{:.center}
+![]({{ site.baseurl }}/img/beawesomecode.jpg)
 
 Anything on your mind? Do you need help with a software project? Let me help you!
 
