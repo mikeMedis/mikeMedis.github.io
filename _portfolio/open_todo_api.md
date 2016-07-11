@@ -8,7 +8,7 @@ short-description: A tracking API TODO list that can authenticate and updated us
 
 {:.center}
 ![]({{ site.baseurl }}/img/opentodoapi.png)
-A tracking API TODO list that can authenticate and updated users, lists and items from the command line.  [See code on Github](https://github.com/mikeMedis/open){:target="_blank"}
+A tracking API TODO list that can authenticate and updated users, lists and items from the command line  [See code on Github](https://github.com/mikeMedis/open){:target="_blank"}
 
 ## Explanation
 Open TODO API is a CLI(command line) application, where users could make lists and items on a todo list from the command line.

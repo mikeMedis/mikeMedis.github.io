@@ -7,7 +7,7 @@ short-description: A production quality Wiki Publishing site with Premium Featur
 
 {:.center}
 ![]({{ site.baseurl }}/img/blocipedia.png)
-A production quality Wiki Publishing site with Premium Features.  [See code on Github](https://github.com/mikeMedis/blocipedia){:target="_blank"}
+A production quality Wiki Publishing site with Premium Features  [See code on Github](https://github.com/mikeMedis/blocipedia){:target="_blank"}
 
 ## Explanation
 

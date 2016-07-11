@@ -11,8 +11,7 @@ short-description: Music player. Javascript and AngularJS Development.
 
 
 {:.center}
-Javascript, jQuery, and AngularJS, with Buzz HTML5 Sound Library.
-[See code on Github](https://github.com/mikeMedis/bloc-jams-angular){:target="_blank"}
+Javascript, jQuery, and AngularJS, with Buzz HTML5 Sound Library  [See code on Github](https://github.com/mikeMedis/bloc-jams-angular){:target="_blank"}
 
 ## Explanation
 

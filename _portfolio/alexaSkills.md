@@ -8,7 +8,7 @@ short-description: Amazon Echo Alexa Skills built with AWS Lambda and NodeJS.
 
 {:.center}
 ![]({{ site.baseurl }}/img/alexa.jpg)
-AWS Lambda and NodeJS[See code on Github](https://github.com/mikeMedis/){:target="_blank"}
+AWS Lambda and NodeJS  [See code on Github](https://github.com/mikeMedis/alexa-facts-skill){:target="_blank"}  AND  [also here](https://github.com/mikeMedis/alexa-facts-skill){:target="_blank"}
 
 ## Explanation
 
@@ -20,7 +20,7 @@ I wanted my amazon echo to be more customized to me and my style. Most of Alexa'
 
 ## Solution
 
-The skills were developed with AWS Lambda and NodeJS.  I created a custom facts and trivia Skill both based on a computer programming theme. Computer Facts reads a random fact from a list on facts in the skill. Computer Trivia reads a computer programming question and four possible answers, the user will provide Alexa with a desired choice then move on to the next question until 5 questions have been asked then Alexa will prompt the user to start another round of questioning or to choose another command. T
+The skills were developed with AWS Lambda and NodeJS.  I created a custom facts and trivia Skill both based on a computer programming theme. Computer Facts reads a random fact from a list on facts in the skill. Computer Trivia reads a computer programming question and four possible answers, the user will provide Alexa with a desired choice then move on to the next question until 5 questions have been asked then Alexa will prompt the user to start another round of questioning or to choose another command.
 
 ## Conclusion
 

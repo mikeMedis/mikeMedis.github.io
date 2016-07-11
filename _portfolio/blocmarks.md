@@ -8,7 +8,7 @@ short-description: BlocMarks is a social bookmarking application for finding and
 
 {:.center}
 ![]({{ site.baseurl }}/img/blocmarks.png)
-BlocMarks is a social bookmarking application for finding and sharing your favorite URLs with your friends online.  [See code on Github](https://github.com/mikeMedis/blocmarks){:target="_blank"}
+BlocMarks is a social bookmarking application for finding and sharing your favorite URLs with your friends online  [See code on Github](https://github.com/mikeMedis/blocmarks){:target="_blank"}
 
 ## Explanation
 

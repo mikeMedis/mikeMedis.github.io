@@ -8,7 +8,7 @@ short-description: Pomodoro timer. Design and Development. Javascript and Angula
 
 {:.center}
 ![]({{ site.baseurl }}/img/bloctime.png)
-AngularJS with AngularFire, Javascript, and jQuery.  [See code on Github](https://github.com/mikeMedis/blocipedia){:target="_blank"}
+AngularJS with AngularFire, Javascript, and jQuery  [See code on Github](https://github.com/mikeMedis/blocipedia){:target="_blank"}
 
 
 

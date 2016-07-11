@@ -8,7 +8,7 @@ short-description: Bloccit is a Reddit clone to learn Ruby on Rails Framework
 
 {:.center}
 ![]({{ site.baseurl }}/img/bloccit.png)
-Bloccit is a Reddit clone to learn Ruby on Rails Framework[See code on Github](https://github.com/mikeMedis/blocipedia){:target="_blank"}
+Bloccit is a Reddit clone to learn Ruby on Rails Framework  [See code on Github](https://github.com/mikeMedis/blocipedia){:target="_blank"}
 
 ## Explanation
 
