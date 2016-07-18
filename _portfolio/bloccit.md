@@ -2,17 +2,20 @@
 layout: post
 title: Bloccit
 thumbnail-path: "img/bloccit.png"
-short-description: Bloccit is a Reddit clone to learn Ruby on Rails Framework
+short-description: Bloccit is a production ready Reddit clone  
 
 ---
 
 {:.center}
 ![]({{ site.baseurl }}/img/bloccit.png)
-Bloccit is a Reddit clone to learn Ruby on Rails Framework  [See code on Github](https://github.com/mikeMedis/blocipedia){:target="_blank"}
+Bloccit is a Reddit clone to learn Ruby on Rails Framework  
+
+{:.center}
+* [See code on Github](https://github.com/mikeMedis/blocipedia){:target="_blank"}
 
 ## Explanation
 
-This project was my introduction to the MVC model and to creating a Rails application from start to finish. It's purpose was to provide a learning experience in which I could begin to gain some fluency working with the Rails framework.
+This project was my introduction to the MVC model and to creating a Ruby on Rails application from start to finish. It's purpose was to provide a learning experience in which I could begin to gain some fluency working with the Ruby on Rails framework.
 
 ## Problem
 
@@ -20,7 +23,7 @@ Bloccit was built in small sections primarily relying on Test Driven Design with
 
 ## Solution
 
-I would start each feature by writing RSpec test this allowed me to incrementally build out more complex features by giving me quick feedback as to when I was inadvertently breaking something. Because this was a "learning" project users were implemented manually. This meant all authorization was based on enum datatypes and had to be worked into the controllers and models manually. Writing tests for this proved very useful because it allowed me to quickly build more complex roles and refine their access types with little effort. Labeling posts also proved to be difficult but that was due to me struggling conceptually with the idea of polymorphic relationships. Once I gained a better understanding of model interfaces I was able to get that section working.
+I would start each feature by writing RSpec test. This allowed me to incrementally build out more complex features by giving me quick feedback as to when I was inadvertently breaking something. Do to this being a "learning" project users were implemented manually. This meant all authorization was based on enum datatypes and had to be worked into the controllers and models manually. Writing tests for this proved very useful because it allowed me to quickly build more complex roles and refine their access types with little effort. Labeling posts also proved to be difficult but that was due to me struggling conceptually with the idea of polymorphic relationships. Once I gained a better understanding of model interfaces I was able to get that section working.
 
 ## Conclusion
 

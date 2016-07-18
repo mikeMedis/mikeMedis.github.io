@@ -2,12 +2,15 @@
 layout: post
 title: Blocipedia
 thumbnail-path: "img/blocipedia.png"
-short-description: A production quality Wiki Publishing site with Premium Features.
+short-description: A production quality wiki publishing site with premium features.
 ---
 
 {:.center}
 ![]({{ site.baseurl }}/img/blocipedia.png)
-A production quality Wiki Publishing site with Premium Features  [See code on Github](https://github.com/mikeMedis/blocipedia){:target="_blank"}
+A production quality Wiki Publishing site with Premium Features  
+
+{:.center}
+* [See code on Github](https://github.com/mikeMedis/blocipedia){:target="_blank"}
 
 ## Explanation
 

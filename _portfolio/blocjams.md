@@ -1,21 +1,22 @@
 ---
 layout: post
-title: BlocJams Project Javascript/JQuery/Angular
+title: Bloc Jams
 thumbnail-path: "img/blocjams.png"
-short-description: Music player. Javascript and AngularJS Development.
-
+short-description: Music player built two different ways to learn Front-End development.
 ---
 
 {:.center}
 ![]({{ site.baseurl }}/img/blocjams.png)
 
+{:.center}
+Javascript, jQuery, and AngularJS, with Buzz HTML5 Sound Library
 
 {:.center}
-Javascript, jQuery, and AngularJS, with Buzz HTML5 Sound Library  [See code on Github](https://github.com/mikeMedis/bloc-jams-angular){:target="_blank"}
+* [See code on Github](https://github.com/mikeMedis/bloc-jams-angular){:target="_blank"}
 
 ## Explanation
 
-BlocJams is a fully functional music player, built first with vanilla Javascript, then refactored with jQuery and AngularJS. Songs can be skipped, replayed, muted and unmuted("turned up to 11!"). HTML5 Buzz library was used to support music playback (along with a variety of other functions).
+Bloc Jams is a fully functional music player, built first with vanilla Javascript, then refactored with jQuery and AngularJS. Songs can be skipped, replayed, and muted. HTML5 Buzz library was used to support music playback (along with a variety of other functions).
 
 ## Problem
 

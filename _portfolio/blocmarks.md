@@ -8,7 +8,10 @@ short-description: BlocMarks is a social bookmarking application for finding and
 
 {:.center}
 ![]({{ site.baseurl }}/img/blocmarks.png)
-BlocMarks is a social bookmarking application for finding and sharing your favorite URLs with your friends online  [See code on Github](https://github.com/mikeMedis/blocmarks){:target="_blank"}
+BlocMarks is a social bookmarking application for finding and sharing your favorite URLs with your friends online
+
+{:.center}
+* [See code on Github](https://github.com/mikeMedis/blocmarks){:target="_blank"}
 
 ## Explanation
 
@@ -30,6 +33,3 @@ Achieving the desired results, I first used Devise a ruby gem to have a user sig
 
 Passing all parameters of the user stories given for the application. The problem was solved and now a Bookmark sharing application is in place.
 {:.center}
-
-{:.center}
-[See the website @ Heroku](https://git.heroku.com/serene-retreat-9412.git)

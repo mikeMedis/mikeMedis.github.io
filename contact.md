@@ -8,6 +8,7 @@ feature-img: "img/beawesomecode.jpg"
 {:.center}
 ![]({{ site.baseurl }}/img/beawesomecode.jpg)
 
+{:.center}
 Anything on your mind? Do you need help with a software project? Let me help you!
 
 <form action="https://getsimpleform.com/messages?form_api_token=a7a9b87fc673370ced07055043329c51" method="post">

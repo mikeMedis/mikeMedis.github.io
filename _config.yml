@@ -10,7 +10,7 @@ theme:
 
   # Header and footer text
   header_text: >
-     <h1>I'm Mike.</h1>
+     <h1>I'm Mike,</h1>
      <p>a software developer.</p>
   header_text_feature_image:
   footer_text: >
