@@ -8,7 +8,9 @@ feature-img: "img/programmer.jpg"
 {:.center}
 ![]({{ site.baseurl }}/img/programmer.jpg)
 
+{:.center}
 Hey there!
+
 
 Thanks for checking out my portfolio. I'm going to go ahead and make the assumption that since you are reading this, you would like to learn me about me.
 

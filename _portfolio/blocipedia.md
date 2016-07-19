@@ -7,14 +7,14 @@ short-description: A production quality wiki publishing site with premium featur
 
 {:.center}
 ![]({{ site.baseurl }}/img/blocipedia.png)
-A production quality Wiki Publishing site with Premium Features  
+A production quality Wiki Publishing site with Premium Features. 
 
 {:.center}
 * [See code on Github](https://github.com/mikeMedis/blocipedia){:target="_blank"}
 
 ## Explanation
 
-Blocipedia is a Rails app that allows Standard(free) or Premium(Paid) users to create and publish wikis for everyone to see . As a Premium user, you are able to create private wikis and add collaborators to your wikis for others to contribute them.
+Blocipedia is a Ruby on Rails application that allows Standard(free) or Premium(paid) users to create and publish wikis for everyone to see . As a Premium user, you are able to create private wikis and add collaborators to your wikis for others to contribute them.
 
 ## Problem
 

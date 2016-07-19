@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BlocMarks
+title: Bloc Marks
 thumbnail-path: "img/blocmarks.png"
 short-description: BlocMarks is a social bookmarking application for finding and sharing your favorite URLs with your friends online.
 
@@ -8,14 +8,14 @@ short-description: BlocMarks is a social bookmarking application for finding and
 
 {:.center}
 ![]({{ site.baseurl }}/img/blocmarks.png)
-BlocMarks is a social bookmarking application for finding and sharing your favorite URLs with your friends online
+Bloc Marks is a social bookmarking application for finding and sharing your favorite URLs with your friends online.
 
 {:.center}
 * [See code on Github](https://github.com/mikeMedis/blocmarks){:target="_blank"}
 
 ## Explanation
 
-With a native browser sharing your favorite bookmarks with friend and family isn't the easiest thing to do that why I would like to introduce you to BlocMarks. BlocMarks makes sharing your favorite bookmarked sites with your friends a very simple job. Organizing each bookmark by topic and making them public other users can find and use your favorite bookmarks with ease.
+Bloc Marks is also a Ruby on Rails application that uses a native browser to share the users favorite bookmarks with other users. Bloc Marks makes sharing the users favorite bookmarked sites with their friends, coworkers, and even their family a very simple job. Establishing an organizational method with each bookmarked URL by topic makes the user experience as effort-free as possible. Making bookmarking a social experience by offering public access to the user's favorite websites.
 
 ## Problem
 
@@ -31,5 +31,42 @@ Achieving the desired results, I first used Devise a ruby gem to have a user sig
 
 ## Conclusion
 
-Passing all parameters of the user stories given for the application. The problem was solved and now a Bookmark sharing application is in place.
+Authenticating users to gain access into the web application. Users were associated with topics through the use of ```ActiveRecord``` in the Rails framework. Also using the ```ActiveRecord``` to associate bookmarks with topics.
+
 {:.center}
+Like this:
+``` ruby
+class Topic < ActiveRecord::Base
+	belongs_to: :user
+	has_many :bookmarks
+end
+```
+
+{:.center}
+As well as integrated Mailgun to send emails to users with a bookmarked URL.
+Like this:
+``` ruby
+class IncomingController < ApplicationController
+  skip_before_action :verify_authenticity_token, only: [:create]
+
+  def create
+    puts params[:sender]
+    users = User.where(email: params[:sender])
+    if users.count == 0
+      User.invite!(email: params[:sender], name: params[:sender])
+    else
+      @user = users.first
+      puts params[:subject]
+      @topic = Topic.find_or_create_by(title: params[:subject], user: @user)
+      puts @topic
+      @url = params["stripped-text"]
+      puts @url
+      @bookmark = Bookmark.new(user: @user, topic: @topic, url: @url)
+      puts @bookmark
+      # authorize @bookmark
+      @bookmark.save
+    end
+    head 200
+  end
+end
+```

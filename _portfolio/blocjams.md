@@ -9,10 +9,12 @@ short-description: Music player built two different ways to learn Front-End deve
 ![]({{ site.baseurl }}/img/blocjams.png)
 
 {:.center}
-Javascript, jQuery, and AngularJS, with Buzz HTML5 Sound Library
+Spotify clone built with jQuery and rebuilt with AngularJS.
 
 {:.center}
-* [See code on Github](https://github.com/mikeMedis/bloc-jams-angular){:target="_blank"}
+* [See jQuery code on Github](https://github.com/mikeMedis/bloc-jams-jQuery){:target="_blank"}
+* [See the AngularJS code on Github](https://github.com/mikeMedis/bloc-jams-angular){:target="_blank"}
+
 
 ## Explanation
 

@@ -8,10 +8,10 @@ short-description: Pomodoro timer and TODO list
 
 {:.center}
 ![]({{ site.baseurl }}/img/bloctime.png)
-AngularJS with AngularFire, Javascript, and jQuery
+Pomodoro timer and a tasks list.
 
 {:.center}
-* [See code on Github](https://github.com/mikeMedis/blocipedia){:target="_blank"}
+* [See code on Github](https://github.com/mikeMedis/bloctime){:target="_blank"}
 
 
 

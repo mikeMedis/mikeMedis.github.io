@@ -11,10 +11,10 @@ short-description: A tracking API TODO list that can authenticate and updated us
 A tracking API TODO list that can authenticate and updated users, lists, and items from the command line.
 
 {:.center}
-* [See code on Github](https://github.com/mikeMedis/open){:target="_blank"}
+* [See code on Github](https://github.com/mikeMedis/open-to-do-api){:target="_blank"}
 
 ## Explanation
-Open TODO API is a CLI(command-line interface) application, where users could make lists and items on a todo list from the command line.
+Open TODO API is a CLI (command-line interface) application, where users could make lists and items on a todo list from the command line.
 
 ## Problem
 The amount of time developers and engineers spend working in the terminal, most are looking for time savers at every corner. With users moving text editing to VIM to save time only after tremendous dues are paid learning a new way of interacting with a computer. Engineers and developers alike need a do list that we can use and never have to leave the command line.
@@ -41,4 +41,4 @@ end
 
 ## Conclusion
 
-This application had several different parts which made it challenging and fun to work on. I especially enjoyed learning how to interact with data in a very interesting and exciting way. Having a way to interact with the command line that makes my development that much more efficient this project was as rewarding as I have ever felt.
+This application had several different parts which made it challenging and fun to work on. I especially enjoyed learning how to interact with data in a very interesting and exciting way(regarding the command line). Having a way to interact with the command line to build my own API makes my development that much more efficient this project was as rewarding as I have ever felt.
