@@ -34,39 +34,9 @@ Achieving the desired results, I first used Devise a ruby gem to have a user sig
 Authenticating users to gain access into the web application. Users were associated with topics through the use of ```ActiveRecord``` in the Rails framework. Also using the ```ActiveRecord``` to associate bookmarks with topics.
 
 {:.center}
-Like this:
 ``` ruby
 class Topic < ActiveRecord::Base
 	belongs_to: :user
 	has_many :bookmarks
-end
-```
-
-{:.center}
-As well as integrated Mailgun to send emails to users with a bookmarked URL.
-Like this:
-``` ruby
-class IncomingController < ApplicationController
-  skip_before_action :verify_authenticity_token, only: [:create]
-
-  def create
-    puts params[:sender]
-    users = User.where(email: params[:sender])
-    if users.count == 0
-      User.invite!(email: params[:sender], name: params[:sender])
-    else
-      @user = users.first
-      puts params[:subject]
-      @topic = Topic.find_or_create_by(title: params[:subject], user: @user)
-      puts @topic
-      @url = params["stripped-text"]
-      puts @url
-      @bookmark = Bookmark.new(user: @user, topic: @topic, url: @url)
-      puts @bookmark
-      # authorize @bookmark
-      @bookmark.save
-    end
-    head 200
-  end
 end
 ```
